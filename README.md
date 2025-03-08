@@ -21,7 +21,7 @@ data, err := dlsite_api.GetInfoBySearch([名称], [类型], client)
 =================================================================
 
 ``` go'
-data, err := dlsite_api.GetInfoById("VJ013799", "游戏", client)
+data, err := dlsite_api.GetInfoById([id], [类型], client)
 ```
 
 该函数用于查看条目，类型只能是以下字符串：
