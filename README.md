@@ -16,7 +16,7 @@ data, err := dlsite_api.GetInfoBySearch([名称], [类型], client)
 
 如果指定上述以外的字符串，则可能调用失败。
 
-返回一个[]byte]和一个error，如果err为nil，则没有错误。
+返回一个[]byte和一个error，如果err为nil，则没有错误。
 
 =================================================================
 
@@ -32,7 +32,7 @@ data, err := dlsite_api.GetInfoById("VJ013799", "游戏", client)
 
 如果指定上述以外的字符串，则可能调用失败。
 
-返回一个[]byte]和一个error，如果err为nil，则没有错误。
+返回一个[]byte和一个error，如果err为nil，则没有错误。
 
 ## 关于client
 
